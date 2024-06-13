@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="asset/image/port-logo.jpg">
+
+
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3" style="background: #052525c4;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- <div class="div-pro-logo ">
+                    <img src="asset/image/port-logo.jpg" alt="Logo"
+                        class="d-inline-block align-text-top rounded-circle pro-logo">
+                </div> -->
+                <div class="px-3 fs-3 fs-1 fw-bold border head_logo rounded-pill" style="color: #EAE7DC;">
+                    <span style="color: #2F4455; ">S_KAHAR_20</span>
+                </div>
+            </a>
+            <div class="d-flex align-items-center">
+
+                <button class="btn d-lg-none d-sm-block d-none me-2" data-bs-toggle="modal" data-bs-target="#modal"
+                    style="background-color: #EAE7DC; color: #376F70;">Contact</button>
+
+                <button class="navbar-toggler" style="color:#EAE7DC;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon " style="color:#EAE7DC;"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav ">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" style="color: #66FCF1;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">Eduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #66FCF1;">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <button class="btn d-lg-block d-none
+            " style="background-color: #EAE7DC; color: #183e3c;" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanva">Contact</button>
+        </div>
+    </nav>
+
+
+    <!-- responsive button modal -->
+    <div class="d-block d-lg-none">
+        <div class="modal " id="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- off-canvas sidebar -->
+    <div class="d-none d-md-block">
+        <div class="offcanvas offcanvas-start " data-bs-scroll="true" id="offcanva">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p class="text-secondary">Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- main banner -->
+    <div class="py-5">
+        <div class="container ">
+            <div class="row " style="height: 10 0vh;">
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+                    <div class="text-center text-lg-start">
+                        <h2 class="ps-1 p-0 m-0 s1-t1">My Name is</h2>
+                        <h1 class="display-1 h-1 p-0 m-0 s1-t2">Saloni Kahar</h1>
+                        <div class="d-flex align-items-center justify-content-center d-inline d-lg-none ">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle "
+                                style="border: 10px solid #2F4455; background-color: #eaf9f6; height: 40vh; width: 40vh; position: relative;">
+                                <img src="asset/image/WhatsApp_Image_2024-06-04_at_11.18.15_AM-removebg-preview-removebg-preview.png"
+                                    alt="" style="bottom: -10px; position: absolute;" height="100%" width="100%">
+                            </div>
+                        </div>
+                        <h2 class="s1-t3 pt-2 pb-3 display-6">And I'm <span id="changingText" class="h"></span></h2>
+                        <p>I break down complex user experinece problems to create integritiy focussed solutions that
+                            connect billions of people</p>
+                        <button class="btn text-light dc">Hire me</button>
+                        <div class="d-flex align-item-center justify-content-center justify-content-lg-start">
+                            <div class="rounded-circle px-2 me-1 mt-4 d-flex align-item-center justify-content-center">
+                                <a href="" class="text-decoration-none text-dark">
+                                    <i class="ri-instagram-line icon"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle px-2 mx-1 mt-4 d-flex align-item-center justify-content-center">
+                                <a href="" class="text-decoration-none text-dark">
+                                    <i class="ri-linkedin-fill icon"></i>
+                                </a>
+                            </div>
+                            <div class="rounded-circle px-2 mx-1 mt-4 d-flex align-item-center justify-content-center">
+                                <a href="" class="text-decoration-none text-dark">
+                                    <i class="ri-twitter-x-fill icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center d-none d-lg-block pt-5">
+                    <div class="d-flex align-items-center justify-content-center rounded-circle "
+                        style="border: 20px solid #2F4455; background-color: #eaf9f6; height: 80vh; width: 80vh; position: relative;">
+                        <img src="asset/image/WhatsApp_Image_2024-06-04_at_11.18.15_AM-removebg-preview-removebg-preview.png"
+                            alt="" style="bottom: -20px; position: absolute;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="py-5 container-fluid">
+        <h1 class="display-1 h1 s1-t2 text-center">ABOUT ME</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 pt-5 d-flex align-item-center justify-content-center">
+                <div class="" style="height: 70vh; width: 60vh; ">
+                    <img src="asset/image/WhatsApp Image 2024-06-13 at 11.23.46 AM.jpeg"  class="rounded" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <H2 class="text-center text-md-start pt-5 pb-3 fs-2" style="color: #376F70; font-weight: 800;">MY
+                    PERSONAL DETAILS</H2>
+                <div class="row">
+                    <div class="col-6">
+                        <div>
+                            <span class="lable fs-5 py-2">First Name:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Saloni</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Last Name:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Kahar</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Age:</span>
+                            <span class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">18
+                                Years</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Nationality:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Indian</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Freelance:<span>
+                                    <span
+                                        class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Available</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <span class="lable fs-5 py-2">Address:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Surat</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Phone:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">88490*****</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Email:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">salonikahar20</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Linkedin:</span>
+                            <span class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block py-2">Saloni
+                                Kahar</span>
+                        </div>
+                        <div>
+                            <span class="lable fs-5 py-2">Languages:</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block pt-2">Gujarati,
+                                Hindi,</span>
+                            <span
+                                class="lable_ans d-block d-sm-inline-block d-lg-block d-xl-inline-block">English</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-start">
+                    <button class="btn mt-3 btn-primary dc ">Download CV</button>
+                </div>
+            </div>
+            
+                <!-- <div class="row">
+                    <div class="col-6">
+                        <div class="box mb-4 overflow-hidden text-center">
+                            <div class="display-1 h3 fw-medium text-center">1<sup>+</sup></div>
+                            <span class="am">YEARS OF EXPRIENCE</span>
+                        </div>
+                        <div class="box mt-4 overflow-hidden text-center">
+                            <div class="display-1 fw-medium h3 text-center">5<sup>+</sup></div>
+                            <span class="am">HAPPY COSTOMER</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box mb-4 overflow-hidden text-center">
+                            <div class="display-1 h3 fw-medium">7<sup>+</sup></div>
+                            <span class="am">YEARS OF EXPRIENCE</span>
+                        </div>
+                        <div class="box mt-4 overflow-hidden text-center">
+                            <div class="display-1 h3 fw-medium">1<sup>+</sup></div>
+                            <span class="am">AWARDS WON</span>
+                        </div>
+                    </div>
+                </div> -->
+            
+
+        </div>
+    </div>
+
+
+
+    <!-- eduction section -->
+    <div class="container py-5 ">
+        <h1 class="display-1 h1 s1-t2 text-center my-5 pt-2 position-relative">EDUCATION</h1>
+        <div class="position-absolute line d-none d-md-block"
+            style="height: 135vh; width: 5px; left: 50%; background: #2F4455; ">
+        </div>
+        <div class="d-none d-md-block">
+            <div class="row mt-5 ">
+                <div class="col-12 col-md-6">
+                    <div class="ms-3 ps-5 pb-0 mb-4 position-relative mt-5 pt-5 pe-3">
+                        <h6 class="h6 year">2010-20018</h6>
+                        <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                        <span class="place">- Vanita Vishram Prayogik School</span>
+                        <div class="p-3 position-absolute translate-middle rounded-circle batch bg-wb-p d-none d-md-block"
+                            style="right: -55px; top: 70%;"></div>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 mt-5 pe-3">
+                        <h6 class="h6 year">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis
+                            saepe, ex neque unde provident, praesentium quis, porro aliquam hic sint. Inventore, ea!
+                            Corrupti molestiae eum quos dolore, velit consequuntur!</h6>
+
+                        <div class="p-3 position-absolute translate-middle rounded-circle batch bg-wb-p d-none d-md-block"
+                            style="right: -55px; top: 70%;"></div>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 pe-3">
+                        <h6 class="h6 year">2021-2023</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sir V. D. T. Girls High School</span>
+                        <div class="p-3 position-absolute translate-middle rounded-circle batch bg-wb-p d-none d-md-block"
+                            style="right: -55px; top: 70%;"></div>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 mt-5 pe-4">
+                        <h6 class="h6 year">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veniam veritatis
+                            quae sequi iure necessitatibus quam reprehenderit sed provident beatae, dignissimos quos
+                            voluptatibus, dolore cupiditate laborum adipisci labore. Expedita, incidunt.</h6>
+                        <div class="p-3 position-absolute translate-middle rounded-circle batch bg-wb-p d-none d-md-block"
+                            style="right: -55px; top: 70%;"></div>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 pe-3">
+                        <h6 class="h6 year">2023 to continue</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- red and white institute</span>
+                        <div class="p-3 position-absolute translate-middle rounded-circle batch bg-wb-p d-none d-md-block"
+                            style="right: -55px; top: 70%;"></div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 d-none d-md-block">
+                    <div class="ms-3 ps-5 pb-0 mb-4 position-relative mt-5 pt-5">
+                        <h6 class="h6 year pt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic libero
+                            odio incidunt facere animi aliquid. Eum non tempora ipsum architecto, sequi ut porro sed
+                            veniam beatae rerum perferendis dolorum! Quam.</h6>
+                        <div class="p-3 position-absolute translate-middle rounded-circle bg-wb-main d-none d-md-block"
+                            style="left: -25px; top: -25px; "><i class="fa-solid fa-graduation-cap text-dark fs-3"></i>
+                        </div>
+                    </div>
+
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 mt-4">
+                        <h6 class="h6 year">2018-2020</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sir V. D. T. Girls High School</span>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 mt-5">
+                        <h6 class="h6 year">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic libero odio
+                            incidunt facere animi aliquid. Eum non tempora ipsum architecto, sequi ut porro sed veniam
+                            beatae rerum perferendis dolorum! Quam.</h6>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-5 mt-5 mb-5 pb-5">
+                        <h6 class="h6 year">2023 to continue</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sascma English Medium Collage</span>
+                    </div>
+                    <div class="ms-3  ps-5 pb-0 mb-4 position-relative pt-3 mt-5">
+                        <h6 class="h6 year">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic libero odio
+                            incidunt facere animi aliquid. Eum non tempora ipsum architecto, sequi ut porro sed veniam
+                            beatae rerum perferendis dolorum! Quam.</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- when responsive -->
+        <div class="col-12 d-block d-md-none re-border position-relative ms-2">
+            <div class="p-1 position-absolute translate-middle rounded-circle bg-wb-main" style="left: 0px; top: 0px; ">
+                <i class="fa-solid fa-graduation-cap text-dark fs-1"></i>
+            </div>
+            <div class="ms-3 ps-3 pb-0 mb-5 pt-5 position-relative">
+                <h6 class="h6 year">2010-20018</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Vanita Vishram Prayogik School</span>
+                <div style="font-size: 14px; " class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quidem, commodi?</div>
+                    <div class="p-2 position-absolute translate-middle rounded-circle batch bg-wb-pr"
+                            style="left: -18px; top: 50%;"></div>
+            </div>
+            <div class="ms-3  ps-3 pb-0 mb-5 position-relative">
+                <h6 class="h6 year">2018-2020</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sir V. D. T. Girls High School</span>
+                <div style="font-size: 14px; " class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quidem, commodi?</div>
+                    <div class="p-2 position-absolute translate-middle rounded-circle batch bg-wb-pr"
+                            style="left: -18px; top: 50%;"></div>
+            </div>
+            <div class="ms-3  ps-3 pb-0 mb-5 position-relative">
+                <h6 class="h6 year">2021-2023</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sir V. D. T. Girls High School</span>
+                <div style="font-size: 14px; " class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quidem, commodi?</div>
+                    <div class="p-2 position-absolute translate-middle rounded-circle batch bg-wb-pr"
+                            style="left: -18px; top: 50%;"></div>
+            </div>
+            <div class="ms-3  ps-3 pb-0 mb-5 position-relative">
+                <h6 class="h6 year">2023 to continue</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- Sascma English Medium Collage</span>
+                <div style="font-size: 14px; " class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quidem, commodi?</div>
+                    <div class="p-2 position-absolute translate-middle rounded-circle batch bg-wb-pr"
+                            style="left: -18px; top: 50%;"></div>
+            </div>
+            <div class="ms-3  ps-3 pb-0 position-relative">
+                <h6 class="h6 year">2023 to continue</h6>
+                <span class="display-2 h3 display-inline-block position ps-0">Student</span>
+                <span class="place">- red and white institute</span>
+                <div style="font-size: 14px; " class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quidem, commodi?</div>
+                    <div class="p-2 position-absolute translate-middle rounded-circle batch bg-wb-pr"
+                            style="left: -18px; top: 50%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skill section -->
+    <div class="py-5 container">
+        <h1 class="display-1 h1 s1-t2 text-center">SKILLS</h1>
+        <div class="row mt-4 pt-3">
+            <div class="col-12 col-md-6">
+                <H2 class="text-center text-md-start pt-2 pb-3 fs-2" style="color: #376F70; font-weight: 800;">MY
+                    SKILLS DETAILS</H2>
+                <p class="p">Currently I'm in bachelor degree. I Am taking degree of computer application.Also I'm
+                    improve my
+                    skills in web development. Day by Day I increase my skills. I'm also good at web design.</p>
+                <p class="p">I'm also good at web design. I recently completed my Front end Development course.Now
+                    I'm working on
+                    Back end in Devlopment.</p>
+                <p class="p">I complated my front end Devlopment with 4 languages with Projects. I have deep
+                    knowledge of HTML,
+                    CSS, Jquery and Bootstrap. Also have a knowledge of Java Script, C language and Python. </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="py-2">
+                    <div class="h3">HTML</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="py-2">
+                    <div class="h3">CSS</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated pbin" style="width: 25%">
+                        </div>
+                    </div>
+                </div>
+                <div class="py-2">
+                    <div class="h3">Jquery</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="py-2">
+                    <div class="h3">bootsrap</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="py-2">
+                    <div class="h3">JavaScript</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="py-2">
+                    <div class="h3">c</div>
+                    <div class="progress bgcolor" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <section class="project py-5 text-white" id="projects">
+        <h1 class="display-1 h1 s1-t2 text-center">PROJECTS</h1>
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row mt-5 pt-2">
+                <div class="col-md-6 col-xl-4 " data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://salonikahar.github.io/html-project/" target="_blank" class="text-decoration-none">
+                        <div class="card border-0 text-dark rounded-3 py-4 px-4 text-center overflow-hidden main-box">
+                            <div class="box-pro d-flex flex-column align-items-center justify-content-between">
+                                <img src="asset/image/html-project.jpg" alt=""
+                                    class="object-fit-cover border border-secondary-subtle border-3">
+                                <div class="text fs-4 fw-medium mt-2 mb-2">Vegitable Website</div>
+                                <p class="sub-text">Made this with the detailed concept of HTML only.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xl-4 mt-4 mt-md-0" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://salonikahar.github.io/css-project/" target="_blank" class="text-decoration-none">
+                        <div class="card border-0 text-white rounded-3 py-4 px-4 text-center overflow-hidden main-box">
+                            <div class="box-pro d-flex flex-column align-items-center justify-content-between">
+                                <img src="asset/image/woodmart-css.jpg" alt="" class="object-fit-cover border border-3">
+                                <div class="text fs-4 fw-medium mt-2 mb-2">WOODMART</div>
+                                <p class="sub-text">Made this using HTML and CSS only.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xl-4 mt-4 mt-xl-0" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://salonikahar.github.io/AdminPanel/" target="_blank" class="text-decoration-none">
+                        <div class="card border-0 text-white rounded-3 py-4 px-4 text-center overflow-hidden main-box">
+                            <div class="box-pro d-flex flex-column align-items-center justify-content-between">
+                                <img src="asset/image/admin-pannel.jpg" alt="" class="object-fit-cover border border-3">
+                                <div class="text fs-4 fw-medium mt-2 mb-2">VRISTO(ADMIN PANNEL)</div>
+                                <p class="sub-text">Made this using HTML, CSS, MEDIAQUERY, JQUERY.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xl-4 mt-4" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <div class="card border-0 text-white rounded-3 py-4 px-4 text-center overflow-hidden main-box">
+                            <div class="box-pro d-flex flex-column align-items-center justify-content-between">
+                                <img src="asset/image/PORTFOLIO.jpg" alt="" class="object-fit-cover border border-3">
+                                <div class="text fs-4 fw-medium mt-2 mb-2">PORTFOLIO</div>
+                                <p>Made this using HTML, CSS, BOOTSTRAP, JQUERY.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-xl-4 mt-4" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="">
+                        <div class="card border-0 text-white rounded-3 py-4 px-4 text-center overflow-hidden main-box">
+                            <div class="box-pro d-flex flex-column align-items-center justify-content-between">
+                                <img src="asset/image/chess-board.jpg" alt="" class="object-fit-cover border border-3">
+                                <div class="text fs-4 fw-medium mt-2 mb-2">CHESS-BOARD CSS</div>
+                                <p>Made this using HTML and CSS only.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+
+
+
+
+
+            <!-- script -->
+            <script src="asset/js/script.js"></script>
+            <!-- jquery -->
+            <script src="asset/js/jquery-3.7.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
